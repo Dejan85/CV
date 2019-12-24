@@ -1,0 +1,40 @@
+.skills {
+  padding: 3rem 0 0 0;
+
+  &__h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 0 2rem 0;
+
+    &:not(:first-child) {
+      padding: 4rem 0 2rem 0;
+    }
+  }
+
+  &__h4 {
+    width: 18rem;
+  }
+
+  &__content {
+  }
+
+  &__skillBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  &__bar {
+    background: $color-primary1;
+    height: 1.2rem;
+    width: 44rem;
+
+    &--child {
+      background: $color-primary10;
+      width: 80%;
+      height: 1.2rem;
+    }
+  }
+}

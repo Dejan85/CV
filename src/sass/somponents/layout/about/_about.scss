@@ -1,0 +1,14 @@
+.about {
+  width: 72rem;
+  background: $color-primary2;
+  padding: 6rem;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    padding: 0 0 3rem 0;
+  }
+  &__h1 {
+    padding: 0 0 0 2rem;
+  }
+}

@@ -1,0 +1,21 @@
+.experience {
+  padding: 3rem 0 0 0;
+
+  &__job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 3rem 0;
+  }
+
+  &__h2 {
+  }
+
+  &__span {
+  }
+
+  &__p {
+    width: 100%;
+    line-height: 1.7;
+  }
+}

@@ -1,0 +1,23 @@
+// VARIABLES
+@import "./somponents/variables/colors";
+@import "./somponents/variables/fontFamily";
+
+// MIXINS
+@import "./somponents/mixins/respond";
+
+// BASE
+@import "./somponents/base/base";
+
+// LAYOUT
+@import "./somponents/layout/about/about";
+@import "./somponents/layout/about/aboutMe";
+@import "./somponents/layout/about/experience";
+@import "./somponents/layout/about/skills";
+@import "./somponents/layout/personal/personal";
+
+// TYPOGRAPFY
+@import "./somponents/typograpfy/about/aboutTypograpfy";
+@import "./somponents/typograpfy/about/aboutMeTypograpfy";
+@import "./somponents/typograpfy/about/experienceTypogprapfy";
+@import "./somponents/typograpfy/about/skillsTypograpfy";
+@import "./somponents/typograpfy/personal/personalTypograpfy";
