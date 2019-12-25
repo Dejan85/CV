@@ -35,8 +35,39 @@ body {
 
 .App {
   display: flex;
+  flex-direction: column;
   max-width: 96rem;
   width: 100%;
   margin: 0 auto;
-  padding: 7rem 0;
+  padding: 1rem 0 7rem;
+
+  &__laguange {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__sr,
+  &__eng {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2rem;
+    margin: 0.5rem 0.5rem 1rem;
+    p {
+      font-size: 1.4rem;
+      font-family: $font-3;
+      color: $color-primary6;
+      cursor: pointer;
+    }
+
+    img {
+      width: 100%;
+      height: 1.3rem;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
 }

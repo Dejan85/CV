@@ -1,0 +1,118 @@
+{
+  "aboutme": [
+    { "h1": "O MENI" },
+    {
+      "p": "Počeo sam da se bavim web programiranjem početkom 2017. godine. Inače se dugo bavim izradom statičnih web sajtova, ali ne profesionalno."
+    },
+    {
+      "p": "U januaru 2018. godine, završio sam kurs Krojačeva škola web programiranja, smer full stack javascript developer. Na kursu smo detaljno radili kompletan javascript (es5, es6), plus node js, mongo db, i nešto malo angular js-a."
+    },
+    {
+      "p": "Jako volim da programiram i imam jaku želju za novim saznanjima i veštinama. Skoro svaki dan programiram i nemam nameru da prestanem. Takođe nemam problem da učim nove tehnologije ako firma ili kompanija to zahtevaju od mene. Kroz studiranje sam prošao raze tehnologije različitog karaktera, tako da sam praktično naviknut na promene i vrlo brzo se prilagođavam."
+    },
+    {
+      "p": "Moj izbor od javascript frameworkova je React Js, i imam u planu da ga usavršim do maksimuma."
+    },
+    {
+      "p": "Moje ambicije su da u budućnosti jako dobro usavršim MERN stek tehnologije."
+    },
+    { "p": "Ponosni otac male devojčice Sare." }
+  ],
+  "experience": [
+    { "h1": "ISKUSTVO" },
+    {
+      "h2": "Design and Preparation for the press",
+      "date": "2008 - 2010",
+      "p": "Fotokopirnica"
+    },
+    {
+      "h2": "Komercijalista",
+      "date": "2010 - 2011",
+      "p": "List Computers"
+    },
+    {
+      "h2": "Serviser Računara",
+      "date": "2011 - 2014",
+      "p": "Sky Computers"
+    },
+    {
+      "h2": "Analiza kvaliteta",
+      "date": "2014 - ",
+      "p": "ProTent Obrenovac"
+    }
+  ],
+  "skills": [
+    { "h1": "VEŠTINE" },
+    [
+      {
+        "h3": "Dizajn i Struktura",
+        "arr": [
+          { "h4": "HTML", "percent": "100%" },
+          { "h4": "CSS/SASS", "percent": "80%" },
+          { "h4": "Bootstrap framework", "percent": "20%" },
+          { "h4": "Responsive design", "percent": "80%" },
+          { "h4": "Photoshop", "percent": "30%" },
+          {
+            "h4": "Hand coding web pages - PSD to HTML/CSS pixel perfect",
+            "percent": "80%"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Javascript - Frontend",
+        "arr": [
+          { "h4": "DOM", "percent": "70%" },
+          { "h4": "Functional Javascript", "percent": "70%" },
+          { "h4": "Ajax, JSON", "percent": "20%" },
+          { "h4": "React Js", "percent": "70%" },
+          { "h4": "Redux", "percent": "70%" },
+          { "h4": "Webpack", "percent": "20%" },
+          { "h4": "CRUD", "percent": "70%" },
+          { "h4": "Rest API", "percent": "60%" },
+          { "h4": "SPA", "percent": "70%" }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Javascript - Backend",
+        "arr": [
+          { "h4": "Node Js", "percent": "20%" },
+          { "h4": "Express", "percent": "20%" },
+          { "h4": "Mongo Db", "percent": "20%" },
+          { "h4": "Ejs Templating", "percent": "20%" },
+          { "h4": "Creating user and Login", "percent": "20%" },
+          { "h4": "Authorization", "percent": "30%" },
+          { "h4": "Validation", "percent": "30%" },
+          { "h4": "SSR App", "percent": "30%" },
+          { "h4": "MERN App", "percent": "30%" }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Ostalo",
+        "arr": [
+          { "h4": "NPM packages", "percent": "100%" },
+          { "h4": "GIT/Github", "percent": "20%" },
+          { "h4": "Heroku Deploying", "percent": "60%" },
+          { "h4": "Firestore", "percent": "20%" },
+          { "h4": "Visual Studio Code editor", "percent": "100%" },
+          {
+            "h4": "Upgrade, install and troubleshoot Windows hardware and software",
+            "percent": "70%"
+          },
+          { "h4": "Upgrade, install and troubleshoot Linux", "percent": "30%" }
+        ]
+      }
+    ]
+  ],
+  "projects": [
+    { "h1": "PROJEKTI" },
+    {
+      "p": "Sve moje projekte mozete videti preko moje web aplikacije:"
+    }
+  ]
+}

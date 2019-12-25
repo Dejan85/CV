@@ -1,0 +1,118 @@
+{
+  "aboutme": [
+    { "h1": "PROFILE" },
+    {
+      "p": "I'm in web programming since 2017. Before programing, I've been working static websites for a long time, but not professionaly."
+    },
+    {
+      "p": "In January of 2018. I completed the course Krojačeva škola of web design and web programming, section: full stack javascript developer. On course, we did a detailed full javascript ES5, ES6, plus node.js and mongoDb."
+    },
+    {
+      "p": "I really love web programming, and I have strong will for new knowledge and skill. I'm constantly learning, and I do not intend to stop. Also, I do not have a problem with learning other IT technologies if at some point the company requires it for me."
+    },
+    {
+      "p": "My choice of javascript frammworks is React. js, and I have a plan to improve my skill to the maximum."
+    },
+    {
+      "p": "My ambitions for the future are mastering MERN steck technologies."
+    },
+    { "p": "Proud father of a little girl Sara." }
+  ],
+  "experience": [
+    { "h1": "EXPERIENCES" },
+    {
+      "h2": "Design and Preparation for the press",
+      "date": "2008 - 2010",
+      "p": "Photocopier"
+    },
+    {
+      "h2": "Comercialist",
+      "date": "2010 - 2011",
+      "p": "List Computers"
+    },
+    {
+      "h2": "Computer Servicer",
+      "date": "2011 - 2014",
+      "p": "Sky Computers"
+    },
+    {
+      "h2": "Quality analysis",
+      "date": "2014 - ",
+      "p": "ProTent Obrenovac"
+    }
+  ],
+  "skills": [
+    { "h1": "SKILLS & PROFICIENCY" },
+    [
+      {
+        "h3": "Style and Structure",
+        "arr": [
+          { "h4": "HTML", "percent": "100%" },
+          { "h4": "CSS/SASS", "percent": "80%" },
+          { "h4": "Bootstrap framework", "percent": "20%" },
+          { "h4": "Responsive design", "percent": "80%" },
+          { "h4": "Photoshop", "percent": "30%" },
+          {
+            "h4": "Hand coding web pages - PSD to HTML/CSS pixel perfect",
+            "percent": "80%"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Javascript - Frontend",
+        "arr": [
+          { "h4": "DOM", "percent": "70%" },
+          { "h4": "Functional Javascript", "percent": "70%" },
+          { "h4": "Ajax, JSON", "percent": "20%" },
+          { "h4": "React Js", "percent": "70%" },
+          { "h4": "Redux", "percent": "70%" },
+          { "h4": "Webpack", "percent": "20%" },
+          { "h4": "CRUD", "percent": "70%" },
+          { "h4": "Rest API", "percent": "60%" },
+          { "h4": "SPA", "percent": "70%" }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Javascript - Backend",
+        "arr": [
+          { "h4": "Node Js", "percent": "20%" },
+          { "h4": "Express", "percent": "20%" },
+          { "h4": "Mongo Db", "percent": "20%" },
+          { "h4": "Ejs Templating", "percent": "20%" },
+          { "h4": "Creating user and Login", "percent": "20%" },
+          { "h4": "Authorization", "percent": "30%" },
+          { "h4": "Validation", "percent": "30%" },
+          { "h4": "SSR App", "percent": "30%" },
+          { "h4": "MERN App", "percent": "30%" }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Other Skills",
+        "arr": [
+          { "h4": "NPM packages", "percent": "100%" },
+          { "h4": "GIT/Github", "percent": "20%" },
+          { "h4": "Heroku Deploying", "percent": "60%" },
+          { "h4": "Firestore", "percent": "20%" },
+          { "h4": "Visual Studio Code editor", "percent": "100%" },
+          {
+            "h4": "Upgrade, install and troubleshoot Windows hardware and software",
+            "percent": "70%"
+          },
+          { "h4": "Upgrade, install and troubleshoot Linux", "percent": "30%" }
+        ]
+      }
+    ]
+  ],
+  "projects": [
+    { "h1": "PROJECTS" },
+    {
+      "p": "All my projects you can see on my portfolio Web App:"
+    }
+  ]
+}
