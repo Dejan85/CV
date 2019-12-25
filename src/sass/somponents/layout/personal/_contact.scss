@@ -1,0 +1,19 @@
+.personal {
+  &__contact {
+    width: 18rem;
+    // height: 20.5rem;
+    padding: 2rem 0;
+    // background: red;
+  }
+
+  &__partial {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 0 0;
+  }
+
+  &__p,
+  &__link {
+    padding: 0 0 0 1rem;
+  }
+}

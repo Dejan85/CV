@@ -1,0 +1,16 @@
+.personal {
+  &__h1 {
+    font-family: $font-3;
+    font-size: 3.2rem;
+    color: $color-primary2;
+    text-align: center;
+  }
+
+  &__name {
+    &--span {
+      font-family: $font-3;
+      font-size: 1.6rem;
+      color: $color-primary12;
+    }
+  }
+}

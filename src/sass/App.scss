@@ -9,17 +9,32 @@
 @import "./somponents/base/base";
 
 // LAYOUT
+
+//about
 @import "./somponents/layout/about/about";
 @import "./somponents/layout/about/aboutMe";
 @import "./somponents/layout/about/experience";
 @import "./somponents/layout/about/skills";
 @import "./somponents/layout/about/projects";
+//personal
 @import "./somponents/layout/personal/personal";
+@import "./somponents/layout/personal/name";
+@import "./somponents/layout/personal/contact";
+@import "./somponents/layout/personal/educations";
+@import "./somponents/layout/personal/laguange";
 
 // TYPOGRAPFY
+
+// about
 @import "./somponents/typograpfy/about/aboutTypograpfy";
 @import "./somponents/typograpfy/about/aboutMeTypograpfy";
 @import "./somponents/typograpfy/about/experienceTypogprapfy";
 @import "./somponents/typograpfy/about/skillsTypograpfy";
 @import "./somponents/typograpfy/about/projectsTypograpfy";
+// personal
 @import "./somponents/typograpfy/personal/personalTypograpfy";
+@import "./somponents/typograpfy/personal/nameTypograpfy";
+@import "./somponents/typograpfy/personal/contactTypograpfy";
+@import "./somponents/typograpfy/personal/educationsTypograpfy";
+@import "./somponents/typograpfy/personal/personalTypograpfy";
+@import "./somponents/typograpfy/personal/laguangeTypograpfy";

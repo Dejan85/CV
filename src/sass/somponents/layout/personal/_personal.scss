@@ -1,4 +1,11 @@
 .personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 24rem;
-  background: $color-primary3;
+  background: $color-primary4;
+
+  &__h2 {
+    padding: 5rem 0 1.5rem 0;
+  }
 }

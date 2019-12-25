@@ -1,0 +1,23 @@
+.personal {
+  &__partial {
+    color: $color-primary2;
+    font-size: 1.4rem;
+    font-family: $font-3;
+  }
+
+  &__p {
+    &:nth-child(3) {
+      color: red;
+    }
+  }
+
+  &__icon {
+    font-size: 1.5rem !important;
+  }
+
+  &__link {
+    color: $color-primary2;
+    font-family: $font-3;
+    text-decoration: none;
+  }
+}
