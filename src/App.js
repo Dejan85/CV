@@ -19,12 +19,12 @@ function App() {
 
   const srLaguangeHandler = () => {
     setLang(srpski);
-    setActive(!active);
+    !active && setActive(!active);
   };
 
   const engLaguangeHandler = () => {
     setLang(engleski);
-    setActive(!active);
+    active && setActive(!active);
   };
 
   return (
@@ -32,11 +32,11 @@ function App() {
       <div className="App__laguange">
         <div className="App__sr" onClick={srLaguangeHandler}>
           <img src={rs} alt="slika" />
-          <p style={{ color: active ? "red" : "" }}>Sr</p>
+          <p style={{ color: active ? "red" : "", userSelect: "none" }}>Sr</p>
         </div>
         <div className="App__eng" onClick={engLaguangeHandler}>
           <img src={eng} alt="slika" />
-          <p style={{ color: active ? "" : "red" }}>En</p>
+          <p style={{ color: active ? "" : "red", userSelect: "none" }}>En</p>
         </div>
         <div className="App__en"></div>
       </div>
