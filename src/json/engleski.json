@@ -114,5 +114,35 @@
     {
       "p": "All my projects you can see on my portfolio Web App:"
     }
+  ],
+  "education": [
+    { "h2": "EDUCATION" },
+    [
+      {
+        "h3": "School of Electrical and Computer Engineering of Applied Studies, Belgrade"
+      },
+      {
+        "p": "New Computer Tehnologies"
+      },
+      {
+        "a": "http://www.viser.edu.rs"
+      }
+    ],
+    [
+      {
+        "h3": "Krojačeva Škola Of Web Design and Web Programing, Belgrade"
+      },
+      {
+        "p": "Full Stack Javascript Developer"
+      },
+      {
+        "a": "https://www.krojacevaskola.com"
+      }
+    ]
+  ],
+  "laguange": [
+    { "h2": "LANGUAGE" },
+    { "p": "Serbian (native)" },
+    { "p": "English (B1)" }
   ]
 }

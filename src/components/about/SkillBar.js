@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const SkillBar = ({ item }) => {
   return (
@@ -12,6 +13,10 @@ const SkillBar = ({ item }) => {
       </div>
     </div>
   );
+};
+
+SkillBar.propType = {
+  item: PropTypes.array
 };
 
 export default SkillBar;

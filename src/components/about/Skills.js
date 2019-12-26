@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 //images
 import img from "../../sass/images/3.jpg";
@@ -26,43 +27,13 @@ const Skills = ({ data }) => {
               </React.Fragment>
             );
           })}
-        {/* <h3 className="skills__h3">Dizajn i Struktura</h3>
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <h3 className="skills__h3">Javascript - Frontend</h3>
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <h3 className="skills__h3">Javascript - Backend</h3>
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <h3 className="skills__h3">Ostalo</h3>
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar />
-        <SkillBar /> */}
       </div>
     </div>
   );
+};
+
+Skills.propTypes = {
+  data: PropTypes.array
 };
 
 export default Skills;

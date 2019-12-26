@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // images
 import img from "../../sass/images/1.jpg";
@@ -22,6 +23,10 @@ const AboutMe = ({ data }) => {
       </div>
     </div>
   );
+};
+
+AboutMe.propTypes = {
+  data: PropTypes.array
 };
 
 export default AboutMe;

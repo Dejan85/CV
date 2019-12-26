@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ContactPartial = ({ icon, info, fontSize }) => {
   return (
@@ -12,6 +13,12 @@ const ContactPartial = ({ icon, info, fontSize }) => {
       </p>
     </div>
   );
+};
+
+ContactPartial.propTypes = {
+  icon: PropTypes.string,
+  info: PropTypes.string,
+  fontSize: PropTypes.string
 };
 
 export default ContactPartial;

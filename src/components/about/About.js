@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // components
 import AboutMe from "./AboutMe";
@@ -14,9 +15,16 @@ const About = ({ lang }) => {
       <AboutMe data={aboutme} />
       <Experience data={experience} />
       <Skills data={skills} />
-      <Projects />
+      <Projects data={projects} />
     </div>
   );
+};
+
+About.propTypes = {
+  aboutme: PropTypes.object,
+  experience: PropTypes.object,
+  skills: PropTypes.object,
+  projects: PropTypes.object
 };
 
 export default About;

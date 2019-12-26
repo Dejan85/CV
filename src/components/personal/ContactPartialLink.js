@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const ContactPartial = ({ icon, adress, info, fontSize }) => {
+const ContactPartial = ({ icon, adress, info }) => {
   return (
     <div className="personal__partial">
       <i className={`${icon} personal__icon`} />
@@ -14,6 +15,12 @@ const ContactPartial = ({ icon, adress, info, fontSize }) => {
       </a>
     </div>
   );
+};
+
+ContactPartial.propTypes = {
+  icon: PropTypes.string,
+  adress: PropTypes.string,
+  info: PropTypes.string
 };
 
 export default ContactPartial;

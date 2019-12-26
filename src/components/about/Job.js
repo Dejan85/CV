@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Job = ({ item }) => {
   return (
@@ -8,6 +9,10 @@ const Job = ({ item }) => {
       <p className="experience__p">{item.p}</p>
     </div>
   );
+};
+
+Job.propTypes = {
+  item: PropTypes.object
 };
 
 export default Job;

@@ -114,5 +114,35 @@
     {
       "p": "Sve moje projekte mozete videti preko moje web aplikacije:"
     }
+  ],
+  "education": [
+    { "h2": "OBRAZOVANJE" },
+    [
+      {
+        "h3": "Visoka škola elektrotehnike i računarstva strukovnih studija, Beograd"
+      },
+      {
+        "p": "Nove Računarske Tehnologije"
+      },
+      {
+        "a": "http://www.viser.edu.rs"
+      }
+    ],
+    [
+      {
+        "h3": "Krojačeva Škola Web Programiranja, Beograd"
+      },
+      {
+        "p": "Full Stack Javascript Developer"
+      },
+      {
+        "a": "https://www.krojacevaskola.com"
+      }
+    ]
+  ],
+  "laguange": [
+    { "h2": "JEZIK" },
+    { "p": "Srpski (maternji)" },
+    { "p": "Engleski (B1)" }
   ]
 }
