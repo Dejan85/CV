@@ -16,4 +16,10 @@
     font-size: 1.4rem;
     color: $color-primary8;
   }
+
+  &__description {
+    font-family: $font-3;
+    font-size: 1.4rem;
+    color: darken($color-primary8, 20%);
+  }
 }

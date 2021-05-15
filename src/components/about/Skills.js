@@ -20,7 +20,8 @@ const Skills = ({ data }) => {
             return (
               <React.Fragment key={index}>
                 <h3 className="skills__h3">{item[0] && item[0].h3}</h3>
-                {item[0] &&
+                {item &&
+                  item[0] &&
                   item[0].arr.map((item, index) => {
                     return <SkillBar key={index} item={item} />;
                   })}
@@ -33,7 +34,7 @@ const Skills = ({ data }) => {
 };
 
 Skills.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 };
 
 export default Skills;

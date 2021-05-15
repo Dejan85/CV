@@ -26,7 +26,7 @@ const AboutMe = ({ data }) => {
 };
 
 AboutMe.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 };
 
 export default AboutMe;

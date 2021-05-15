@@ -21,13 +21,26 @@ const Projects = ({ data }) => {
         >
           https://dejan85.github.io/portfolio/
         </a>
+
+        <p className="projects__p" style={{ paddingTop: "20px" }}>
+          {data[2].p2}
+        </p>
+
+        <a
+          href="https://github.com/Dejan85/proenglish-refactor"
+          className="projects__link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://github.com/Dejan85/proenglish-refactor
+        </a>
       </div>
     </div>
   );
 };
 
 Projects.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 };
 
 export default Projects;

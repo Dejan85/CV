@@ -12,11 +12,20 @@
   }
 
   &__span {
-    width: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20rem;
   }
 
   &__p {
     width: 100%;
     line-height: 1.7;
+  }
+
+  &__description {
+    width: 100%;
+    line-height: 1.7;
+    margin-top: 1rem;
   }
 }

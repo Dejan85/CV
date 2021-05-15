@@ -25,7 +25,7 @@ const Experience = ({ data }) => {
 };
 
 Experience.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 };
 
 export default Experience;

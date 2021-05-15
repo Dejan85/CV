@@ -1,6 +1,7 @@
 import React from "react";
 
-import img from "../../sass/images/avatar.jpg";
+// import img from "../../sass/images/avatar.jpg";
+import img from "../../sass/images/33637358.jfif";
 
 const Name = () => {
   return (

@@ -1,6 +1,8 @@
 {
   "aboutme": [
-    { "h1": "PROFILE" },
+    {
+      "h1": "PROFILE"
+    },
     {
       "p": "I'm in web programming since 2017. Before programing, I've been working static websites for a long time, but not professionaly."
     },
@@ -16,10 +18,14 @@
     {
       "p": "My ambitions for the future are mastering MERN steck technologies."
     },
-    { "p": "Proud father of a little girl Sara." }
+    {
+      "p": "Proud father of a little girl Sara."
+    }
   ],
   "experience": [
-    { "h1": "EXPERIENCES" },
+    {
+      "h1": "EXPERIENCES"
+    },
     {
       "h2": "Design and Preparation for the press",
       "date": "2008 - 2010",
@@ -37,21 +43,53 @@
     },
     {
       "h2": "Quality analysis",
-      "date": "2014 - ",
+      "date": "2014 - 2020",
       "p": "ProTent Obrenovac"
+    },
+    {
+      "h2": "Web developer, React Js developer",
+      "date": "01. 02. 2020 -  01. 05. 2021",
+      "p": "Teletrader Belgrade",
+      "description": {
+        "p": "Ever since the beginning of my employment, my position was a part of the main company project. I worked in a team that designed a huge multilingual application which will deal with stocks. Upon my arrival in the company, the development of the application was in its beginning, thus allowing me to be a part of almost every segment of its development. My work involved layout development as well as constant backand data handling. I also worked on development od reusable UI components. My job mostly involved dinamic front-end components with many purposes, they performed various types of filtering, sortings, displays of dynamic data from backend etc. I constantly used React Js, Typescript, Redux/Saga/Toolkit/Injectors in the application development, as well as SCRUM/AGILE software development methodology.",
+        "p2": "I was also involved in an independent project of my own - a dynamic banner which collected data from backend and, based on the data, changed its layout. I used vanila JS, SASS, AXIOS for this project.",
+        "p3": "Before I stopped working in Teletrader, I was assigned to a sub-project for which I was personally responsible. I started working on the development of IO test application that would automatically test the main project. The test was supposed to have E2E testing and, if necessary, could be started only for a specific part of an organisation.",
+        "p4": "Due to a new work organisation and COVID-19 impact on work, I was made redundant."
+      }
     }
   ],
   "skills": [
-    { "h1": "SKILLS & PROFICIENCY" },
+    {
+      "h1": "SKILLS & PROFICIENCY"
+    },
     [
       {
         "h3": "Style and Structure",
         "arr": [
-          { "h4": "HTML", "percent": "100%" },
-          { "h4": "CSS/SASS", "percent": "80%" },
-          { "h4": "Bootstrap framework", "percent": "20%" },
-          { "h4": "Responsive design", "percent": "80%" },
-          { "h4": "Photoshop", "percent": "30%" },
+          {
+            "h4": "HTML",
+            "percent": "100%"
+          },
+          {
+            "h4": "CSS/SASS",
+            "percent": "80%"
+          },
+          {
+            "h4": "BEM Metodology",
+            "percent": "80%"
+          },
+          {
+            "h4": "Bootstrap framework",
+            "percent": "10%"
+          },
+          {
+            "h4": "Responsive design",
+            "percent": "80%"
+          },
+          {
+            "h4": "Photoshop",
+            "percent": "30%"
+          },
           {
             "h4": "Hand coding web pages - PSD to HTML/CSS pixel perfect",
             "percent": "80%"
@@ -63,15 +101,97 @@
       {
         "h3": "Javascript - Frontend",
         "arr": [
-          { "h4": "DOM", "percent": "70%" },
-          { "h4": "Functional Javascript", "percent": "70%" },
-          { "h4": "Ajax, JSON", "percent": "20%" },
-          { "h4": "React Js", "percent": "70%" },
-          { "h4": "Redux", "percent": "70%" },
-          { "h4": "Webpack", "percent": "20%" },
-          { "h4": "CRUD", "percent": "70%" },
-          { "h4": "Rest API", "percent": "60%" },
-          { "h4": "SPA", "percent": "70%" }
+          {
+            "h4": "DOM",
+            "percent": "70%"
+          },
+          {
+            "h4": "Functional Javascript",
+            "percent": "70%"
+          },
+          {
+            "h4": "Async, JSON",
+            "percent": "40%"
+          },
+          {
+            "h4": "ES6/ES7",
+            "percent": "70%"
+          },
+          {
+            "h4": "Typescript",
+            "percent": "30%"
+          },
+          {
+            "h4": "React Js",
+            "percent": "70%"
+          },
+          {
+            "h4": "React JS with Typescript",
+            "percent": "50%"
+          },
+          {
+            "h4": "Redux",
+            "percent": "50%"
+          },
+          {
+            "h4": "Redux-Toolkit",
+            "percent": "50%"
+          },
+          {
+            "h4": "Redux-Saga",
+            "percent": "50%"
+          },
+          {
+            "h4": "Redux-Thunk",
+            "percent": "50%"
+          },
+          {
+            "h4": "Redux-Injectors",
+            "percent": "50%"
+          },
+          {
+            "h4": "Next JS",
+            "percent": "20%"
+          },
+          {
+            "h4": "Gatsby JS",
+            "percent": "25%"
+          },
+          {
+            "h4": "Webpack",
+            "percent": "10%"
+          },
+          {
+            "h4": "Parcel",
+            "percent": "30%"
+          },
+          {
+            "h4": "CRUD",
+            "percent": "70%"
+          },
+          {
+            "h4": "SPA",
+            "percent": "70%"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "h3": "Javascript - Testing",
+        "arr": [
+          {
+            "h4": "Cypress IO",
+            "percent": "30%"
+          },
+          {
+            "h4": "Gherkin Syntax",
+            "percent": "30%"
+          },
+          {
+            "h4": "Cucamber Syntax",
+            "percent": "30%"
+          }
         ]
       }
     ],
@@ -79,44 +199,117 @@
       {
         "h3": "Javascript - Backend",
         "arr": [
-          { "h4": "Node Js", "percent": "20%" },
-          { "h4": "Express", "percent": "20%" },
-          { "h4": "Mongo Db", "percent": "20%" },
-          { "h4": "Ejs Templating", "percent": "20%" },
-          { "h4": "Creating user and Login", "percent": "20%" },
-          { "h4": "Authorization", "percent": "30%" },
-          { "h4": "Validation", "percent": "30%" },
-          { "h4": "SSR App", "percent": "30%" },
-          { "h4": "MERN App", "percent": "30%" }
+          {
+            "h4": "Node Js",
+            "percent": "10%"
+          },
+          {
+            "h4": "Express",
+            "percent": "10%"
+          },
+          {
+            "h4": "Mongo Db",
+            "percent": "10%"
+          },
+          {
+            "h4": "Ejs Templating",
+            "percent": "10%"
+          },
+          {
+            "h4": "Creating user and Login",
+            "percent": "10%"
+          },
+          {
+            "h4": "Authorization",
+            "percent": "10%"
+          },
+          {
+            "h4": "Validation",
+            "percent": "10%"
+          },
+          {
+            "h4": "Rest API",
+            "percent": "60%"
+          },
+          {
+            "h4": "SSR App",
+            "percent": "20%"
+          },
+          {
+            "h4": "MERN App",
+            "percent": "40%"
+          }
         ]
       }
     ],
     [
       {
-        "h3": "Other Skills",
+        "h3": "Other",
         "arr": [
-          { "h4": "NPM packages", "percent": "100%" },
-          { "h4": "GIT/Github", "percent": "20%" },
-          { "h4": "Heroku Deploying", "percent": "60%" },
-          { "h4": "Firestore", "percent": "20%" },
-          { "h4": "Visual Studio Code editor", "percent": "100%" },
           {
-            "h4": "Upgrade, install and troubleshoot Windows hardware and software",
-            "percent": "70%"
+            "h4": "Continuous Integration"
           },
-          { "h4": "Upgrade, install and troubleshoot Linux", "percent": "30%" }
+          {
+            "h4": "Continuous Deployment "
+          },
+          {
+            "h4": "Agile "
+          },
+          {
+            "h4": "Scrum "
+          },
+          {
+            "h4": "Jira "
+          },
+          {
+            "h4": "Zoom "
+          },
+          {
+            "h4": "GIT/Github"
+          },
+          {
+            "h4": "GIT/Gitlab"
+          },
+          {
+            "h4": "NPM/YARN"
+          },
+          {
+            "h4": "Heroku"
+          },
+          {
+            "h4": "Firestore"
+          },
+          {
+            "h4": "Digital Ocean"
+          },
+          {
+            "h4": "Visual Studio Code editor"
+          },
+          {
+            "h4": "Upgrade, install and troubleshoot Windows hardware and software"
+          },
+          {
+            "h4": "Upgrade, install and troubleshoot Linux"
+          }
         ]
       }
     ]
   ],
   "projects": [
-    { "h1": "PROJECTS" },
+    {
+      "h1": "PROJECTS"
+    },
     {
       "p": "All my projects you can see on my portfolio Web App:"
+    },
+    {
+      "p2": "Projects I have here are projects that I had worked on prior to my employment in Teletrader. Owing to the heavy workload in Teletrader, I haven't had the time to devote myself to the development of independent projects; therefore, this project base is a bit older and not the best representation of my current knowledge level. During this short period of time since I stopped working in Teletrader, I have been working on refractor of ProEnglish website, which I worked for an English language school. This refractor is my newest independent project and you can find it on the link below."
     }
   ],
   "education": [
-    { "h2": "EDUCATION" },
+    {
+      "h2": "EDUCATION"
+    },
     [
       {
         "h3": "School of Electrical and Computer Engineering of Applied Studies, Belgrade"
@@ -141,8 +334,14 @@
     ]
   ],
   "laguange": [
-    { "h2": "LANGUAGE" },
-    { "p": "Serbian (native)" },
-    { "p": "English (B1)" }
+    {
+      "h2": "LANGUAGE"
+    },
+    {
+      "p": "Serbian"
+    },
+    {
+      "p": "English"
+    }
   ]
 }
