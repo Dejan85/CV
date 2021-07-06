@@ -7,7 +7,10 @@ import ContactPartialLink from "./ContactPartialLink";
 const Contact = () => {
   return (
     <div className="personal__contact">
-      <ContactPartial icon="fas fa-envelope" info="xypnotica@gmail.com" />
+      <ContactPartial
+        icon="fas fa-envelope"
+        info="dejan.markovic.dev@gmail.com"
+      />
       <ContactPartial icon="fas fa-phone" info="069/1907-978" />
       <ContactPartial icon="fab fa-viber" info="069/1907-978" />
       <ContactPartialLink
