@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Dejan85.github.io/cv",
+  "homepage": "https://dejan85.github.io/CV",
   "name": "cv",
   "version": "0.1.0",
   "private": true,
@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0"
   }
 }
